@@ -1,0 +1,198 @@
+body{
+    background-color:blanchedalmond;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(register.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top:40px;
+    
+}
+.regform
+{
+    width:800px;
+    background-color:rgb(150, 76, 76);
+    margin:auto;
+    color:white;
+    padding:10px 0px 10px 0px;
+    text-align: center;
+    border-radius:15px 15px 0px 0px;
+}
+.main
+{
+    background-color:rgb(157, 161, 159);
+    width: 800px;
+    margin:auto;
+    color:black;
+}
+form{
+    padding:10px;
+}
+#name
+{
+    width:100%;
+    height:80px;
+}
+.name{
+    margin-left:25px;
+    margin-top: 30px;
+    width: 125px;
+    color:white;
+    font-size: 18px;
+    font-weight:700;
+}
+.firstname{
+    position:relative;
+    left:200px;
+    top: -37px;
+    line-height:40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+}
+.lastname{
+    position: relative;
+    left:417px;
+    top:-80px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+    color:#555;
+}
+.firstlabel
+{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size:14px;
+    left:203px;
+    top:-45px;
+}
+.lastlabel
+{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size:14px;
+    left:175px;
+    top:-45px;
+}
+.fathername{
+    position:relative;
+    left:200px;
+    top:-37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+.email
+{
+    position:relative;
+    left:200px;
+    top:-37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+    }
+.number
+{
+    position:relative;
+    left:200px;
+    top:-37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+.option
+{
+    position:relative;
+    left:200px;
+    top:-47px;
+    line-height: 40px;
+    width: 525px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+#skills
+{
+    color:white;
+    margin:20px;
+    font-size: 18px;
+}
+#skill1
+{
+    color:white;
+    margin:20px;
+    
+}
+#skill2
+{
+    color:white;
+    margin:20px;
+    
+}
+#skill3
+{
+    color:white;
+    margin:20px;
+    
+}
+#skill4
+{
+    color:white;
+    margin:20px;
+    
+}
+#skill5
+{
+    color:white;
+    margin:20px;
+    
+}
+#fresher
+{
+    color:white;
+    margin:20px;
+}
+#yes
+{
+    color:white;
+    margin:20px;
+}
+#no
+{
+    color:white;
+    margin:20px;
+}
+#button
+{
+    margin:20px;
+    font-size: 25px;
+    background-color:rgb(203, 252, 235);
+    display:block;
+    text-align:center;
+    border-radius:12px;
+    border:2px solid #366473;
+    padding:14px 20px;
+    outline:none;
+    color:black;
+    cursor:pointer;
+    transition:0.25px;
+}

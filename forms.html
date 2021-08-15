@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <title>FORMS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="regform"><h1>REGISTRATION FORM</h1></div>
+        <div class="main">
+            <form>
+                <div id="name">
+                    <h2 class="name">NAME</h2>
+                    <input class="firstname"  type="text" name="firstname"><br>
+                    <label class="firstlabel">firstname</label>
+                    <input class="lastname" type="text" name="lastname">
+                    <label class="lastlabel">lastname</label>
+                </div>
+                <h2 class="name">FATHER NAME</h2>
+                <input class="fathername" type="text" name="fathername"><br>
+                <h2 class="name">EMAIL</h2>
+                <input class="email" type="text" name="email"><br>
+                <h2 class="name">PHONE</h2>
+                <input class="number" type="text" name="phone"><br>
+                <h2 class="name">COLLEGE NAME</h2>
+                <select class="option" name="college name">
+                    <option disabled="disabled" selected="selected">choose option</option>
+                    <option>ADHIYAMAAN COLLEGE OF ENGINEERING</option>
+                    <option>PMC</option>
+                    <option>GOVERNMENT ARTS COLLEGE</option>
+                    <option>OTHERS</option>
+                </select>
+                <h2 id="skills">SKILLS</h2>
+                <input type="checkbox" id="skill1" name="skill1">
+                <lable for="skill1">C</lable><br>
+                <input type="checkbox" id="skill2" name="skill2">
+                <lable for="skill1">C++</lable><br>
+                <input type="checkbox" id="skill3" name="skill3">
+                <lable for="skill1">JAVA</lable><br>
+                <input type="checkbox" id="skill4" name="skill4">
+                <lable for="skill1">HTML</lable><br>
+                <input type="checkbox" id="skill5" name="skill5">
+                <lable for="skill1">CSS</lable>
+                <h2 id="fresher">Are you fresher??</h2>
+                <input type="radio" id="yes" name="fresher" value="yes">
+                <label for="yes">YES</label>
+                <input type="radio" id="no" name="fresher" value="no">
+                <label for="no">NO</label>
+                <br>
+                    <button id="button" type="submit">Submit</button>
+                 </form>
+                 </div>
+    </body>
+</html>
